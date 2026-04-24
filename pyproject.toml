@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esgreveal-mvp"
+version = "0.1.0"
+description = "Lightweight ESGReveal-style extractor"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pypdf", "pymupdf"]
+
+[project.optional-dependencies]
+gui = [
+  "PySide6",
+]
+knowledge_base = [
+  "faiss-cpu",
+  "pymilvus",
+  "modelscope",
+  "sentence-transformers",
+  "sentencepiece",
+  "transformers",
+]
+
+[project.scripts]
+esgreveal = "esgreveal.cli:main"
+esgreveal-gui = "esgreveal.gui:launch_gui"
+
+[tool.setuptools.packages.find]
+include = ["esgreveal*"]

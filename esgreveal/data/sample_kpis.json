@@ -1,0 +1,4914 @@
+[
+  {
+    "id": "K-ENV-N01",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 29(a)",
+      "GRI 305-1"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "Scope 1 온실가스 배출량",
+    "kpi_en": "Scope 1 greenhouse gas emissions",
+    "topic_ko": "직접 배출",
+    "topic_en": "Direct emissions",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "tCO2e",
+    "disclosure_type": "numeric",
+    "obligation": "required",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-3-1"
+    ],
+    "k_esg_labels": [
+      "온실가스 배출량 Scope 1·2"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "Scope 1",
+      "스코프 1",
+      "직접 배출",
+      "온실가스 배출량"
+    ],
+    "knowledge": [
+      "연간 직접 온실가스 배출 총량을 우선 수집한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Direct emissions",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N02",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 29(a)",
+      "GRI 305-2"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "Scope 2 온실가스 배출량",
+    "kpi_en": "Scope 2 greenhouse gas emissions",
+    "topic_ko": "간접 배출",
+    "topic_en": "Indirect emissions",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "tCO2e",
+    "disclosure_type": "numeric",
+    "obligation": "required",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-3-1"
+    ],
+    "k_esg_labels": [
+      "온실가스 배출량 Scope 1·2"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "Scope 2",
+      "스코프 2",
+      "간접 배출",
+      "전력 사용"
+    ],
+    "knowledge": [
+      "location-based와 market-based를 구분해 표기하는 경우가 많다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Indirect emissions",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N03",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 29(a)",
+      "GRI 305-3"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "Scope 3 온실가스 배출량",
+    "kpi_en": "Scope 3 greenhouse gas emissions",
+    "topic_ko": "가치사슬 배출",
+    "topic_en": "Value chain emissions",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "tCO2e",
+    "disclosure_type": "numeric",
+    "obligation": "required",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-3-2"
+    ],
+    "k_esg_labels": [
+      "온실가스 배출량 Scope 3"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "Scope 3",
+      "스코프 3",
+      "가치사슬",
+      "공급망 배출"
+    ],
+    "knowledge": [
+      "카테고리별 배출량이 별도 표로 공시되기도 한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Value chain emissions",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N04",
+    "category": "E",
+    "standard_family": "ISSB S2 / GRI",
+    "standard_refs": [
+      "GRI 302-1",
+      "SASB RT-CH-130a.1"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "에너지 사용량",
+    "kpi_en": "Energy consumption",
+    "topic_ko": "직·간접 에너지 소비",
+    "topic_en": "Direct and indirect energy use",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "MWh / GJ / kWh",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-4-1"
+    ],
+    "k_esg_labels": [
+      "에너지 사용량"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "에너지 사용량",
+      "전력 사용량",
+      "연료 사용량",
+      "MWh",
+      "GJ"
+    ],
+    "knowledge": [
+      "재생에너지 목표와 총 에너지 사용량을 구분해야 한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Direct and indirect energy use",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N05",
+    "category": "E",
+    "standard_family": "ISSB S2 / GRI",
+    "standard_refs": [
+      "GRI 302-1",
+      "RE100"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "재생에너지 사용 비율",
+    "kpi_en": "Renewable energy use ratio",
+    "topic_ko": "재생에너지 조달 및 사용",
+    "topic_en": "Renewable energy procurement and use",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-4-2"
+    ],
+    "k_esg_labels": [
+      "재생에너지 사용 비율"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "재생에너지 비율",
+      "재생전력",
+      "renewable electricity",
+      "REC"
+    ],
+    "knowledge": [
+      "RE100 목표와 실제 사용 비율이 함께 제시되는 경우가 많다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Renewable energy procurement and use",
+    "quantity": "Ratio",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-ENV-N06",
+    "category": "E",
+    "standard_family": "ISSB S2 / GRI",
+    "standard_refs": [
+      "GRI 302-3"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "에너지 집약도",
+    "kpi_en": "Energy intensity",
+    "topic_ko": "매출 또는 생산량 대비 에너지 강도",
+    "topic_en": "Energy intensity per revenue or production",
+    "quantity_ko": "집약도",
+    "quantity_en": "Intensity",
+    "unit": "원단위 / 단위당",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "에너지 집약도",
+      "원단위",
+      "단위당 에너지",
+      "energy intensity"
+    ],
+    "knowledge": [
+      "절대 사용량과 집약도를 혼동하지 않도록 단위당 표현을 확인한다."
+    ],
+    "expression_template": {
+      "name": "numeric_intensity",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "원단위",
+        "단위당",
+        "tCO2e/매출",
+        "MWh/매출",
+        "t/생산량"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label",
+        "section"
+      ],
+      "prompt_rules": [
+        "집약도 수치만 추출",
+        "절대값과 구분"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Energy intensity per revenue or production",
+    "quantity": "Intensity",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "집약도"
+  },
+  {
+    "id": "K-ENV-N07",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 303-3"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "물 취수량",
+    "kpi_en": "Water withdrawal",
+    "topic_ko": "용수 취수",
+    "topic_en": "Water withdrawal",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "m3",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-5-1"
+    ],
+    "k_esg_labels": [
+      "용수 취수량"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "취수량",
+      "용수 사용량",
+      "water withdrawal",
+      "용수"
+    ],
+    "knowledge": [
+      "지하수, 상수도, 재이용수 등 원천별로 분리 공시될 수 있다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Water withdrawal",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N08",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 303-4"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "폐수 배출량",
+    "kpi_en": "Water discharge",
+    "topic_ko": "폐수 배출",
+    "topic_en": "Water discharge",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "m3",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-5-2"
+    ],
+    "k_esg_labels": [
+      "폐수 배출량"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "폐수 배출량",
+      "방류량",
+      "water discharge",
+      "폐수"
+    ],
+    "knowledge": [
+      "방류 수질 지표와 함께 제시되는 표를 우선 확인한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Water discharge",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N09",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 306-3"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "폐기물 발생량",
+    "kpi_en": "Waste generated",
+    "topic_ko": "유해 및 비유해 폐기물",
+    "topic_en": "Hazardous and non-hazardous waste",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "t / ton",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "E-6-1"
+    ],
+    "k_esg_labels": [
+      "폐기물 발생량"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "폐기물 발생량",
+      "유해 폐기물",
+      "비유해 폐기물",
+      "waste generated"
+    ],
+    "knowledge": [
+      "총량과 세부 유형을 분리해 읽는다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Hazardous and non-hazardous waste",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N10",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 306-4"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "폐기물 재활용률",
+    "kpi_en": "Waste recycling ratio",
+    "topic_ko": "재활용 및 재사용",
+    "topic_en": "Recycling and reuse",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "재활용률",
+      "재활용 비율",
+      "resource circulation",
+      "recycling rate"
+    ],
+    "knowledge": [
+      "재활용 목표가 아니라 실적 비율을 우선 수집한다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Recycling and reuse",
+    "quantity": "Ratio",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-ENV-N11",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 305-7"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "대기오염물질 배출량",
+    "kpi_en": "Air pollutant emissions",
+    "topic_ko": "NOx, SOx, VOC, 먼지",
+    "topic_en": "NOx, SOx, VOC, particulate matter",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "t / kg",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "NOx",
+      "SOx",
+      "VOC",
+      "먼지",
+      "대기오염물질"
+    ],
+    "knowledge": [
+      "오염물질별 단위가 다를 수 있으니 행별 단위를 확인한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "NOx, SOx, VOC, particulate matter",
+    "quantity": "Absolute value",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-ENV-N12",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 306-3",
+      "GRI 306-5"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "환경 사고 및 누출 건수",
+    "kpi_en": "Environmental incidents and spills",
+    "topic_ko": "누출 및 환경 사고",
+    "topic_en": "Spills and environmental incidents",
+    "quantity_ko": "건수",
+    "quantity_en": "Count",
+    "unit": "건",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "환경 사고",
+      "누출",
+      "spill",
+      "incident"
+    ],
+    "knowledge": [
+      "중대 사고와 경미한 사고를 구분해 표기하기도 한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Spills and environmental incidents",
+    "quantity": "Count",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "건수"
+  },
+  {
+    "id": "K-ENV-T01",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 33"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "온실가스 감축 목표 및 이행조치",
+    "kpi_en": "Emissions targets and actions",
+    "topic_ko": "배출 목표와 달성 경로",
+    "topic_en": "Emissions targets and actions",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "감축 목표",
+      "탄소중립",
+      "배출 감축",
+      "이행조치"
+    ],
+    "knowledge": [
+      "수치 목표보다 실행 조치와 관리체계를 함께 읽는다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Emissions targets and actions",
+    "quantity": "Key actions",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-ENV-T02",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 9",
+      "ISSB S2 13"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "기후 전환 계획",
+    "kpi_en": "Climate transition plan",
+    "topic_ko": "전환 전략",
+    "topic_en": "Transition strategy",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "전환 계획",
+      "transition plan",
+      "Net Zero roadmap",
+      "감축 로드맵"
+    ],
+    "knowledge": [
+      "전환 투자, 기술 전환, 재생에너지 확대 계획이 함께 언급된다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Transition strategy",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T03",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 29(g)"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "내부 탄소가격 운영",
+    "kpi_en": "Internal carbon pricing",
+    "topic_ko": "탄소 가격 적용",
+    "topic_en": "Carbon pricing approach",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "내부 탄소가격",
+      "carbon price",
+      "shadow price"
+    ],
+    "knowledge": [
+      "실제 적용 여부와 의사결정 활용 방식을 구분한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Carbon pricing approach",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T04",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 22"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "기후 시나리오 분석",
+    "kpi_en": "Climate scenario analysis",
+    "topic_ko": "시나리오 기반 리스크 평가",
+    "topic_en": "Scenario-based risk analysis",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "시나리오 분석",
+      "1.5도",
+      "2도",
+      "TCFD"
+    ],
+    "knowledge": [
+      "시나리오 이름, 가정, 영향요인을 함께 확인한다."
+    ],
+    "expression_template": {
+      "name": "text_risk",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "리스크 유형과 대응을 함께 정리"
+    },
+    "aspect": "Environment",
+    "topic": "Scenario-based risk analysis",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T05",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 304-3"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "생물다양성 영향 및 복원",
+    "kpi_en": "Biodiversity impacts and restoration",
+    "topic_ko": "생태계 영향",
+    "topic_en": "Biodiversity impacts",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "생물다양성",
+      "복원",
+      "서식지",
+      "ecosystem"
+    ],
+    "knowledge": [
+      "보호지역 인접 사업장과 복원 활동이 함께 제시되는 경우가 많다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Biodiversity impacts",
+    "quantity": "Key actions",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-ENV-T06",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 303-1"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "수자원 관리 정책",
+    "kpi_en": "Water stewardship policy",
+    "topic_ko": "수자원 관리",
+    "topic_en": "Water stewardship",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "수자원",
+      "water stewardship",
+      "용수 관리",
+      "물 리스크"
+    ],
+    "knowledge": [
+      "고위험 수계, 재이용, 지역사회 영향 평가를 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Water stewardship",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T07",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 306-2"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "자원순환 및 폐기물 감축 정책",
+    "kpi_en": "Waste reduction and circularity policy",
+    "topic_ko": "자원순환",
+    "topic_en": "Circularity policy",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "자원순환",
+      "폐기물 감축",
+      "circular economy",
+      "재활용"
+    ],
+    "knowledge": [
+      "재사용, 재생원료, 감량 활동이 묶여 설명되는 경우가 많다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Circularity policy",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T08",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 305-7"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "오염 방지 관리체계",
+    "kpi_en": "Pollution prevention management",
+    "topic_ko": "오염 저감",
+    "topic_en": "Pollution prevention",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "오염 방지",
+      "오염물질 관리",
+      "scrubber",
+      "집진"
+    ],
+    "knowledge": [
+      "시설 투자와 공정 개선 조치를 함께 읽는다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Pollution prevention",
+    "quantity": "Key actions",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-ENV-T09",
+    "category": "E",
+    "standard_family": "ISSB S2 / RE100",
+    "standard_refs": [
+      "ISSB S2",
+      "RE100"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "재생에너지 조달 전략",
+    "kpi_en": "Renewable energy procurement strategy",
+    "topic_ko": "PPA, REC, 자가발전",
+    "topic_en": "PPA, REC, self-generation",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "PPA",
+      "REC",
+      "재생에너지 조달",
+      "자가발전"
+    ],
+    "knowledge": [
+      "실제 실적이 아닌 전략 설명 문단이므로 정량값과 구분한다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "PPA, REC, self-generation",
+    "quantity": "Key actions",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-ENV-T10",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 307-1"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "환경 법규 위반 및 대응",
+    "kpi_en": "Environmental compliance cases",
+    "topic_ko": "법규 위반, 벌금, 시정조치",
+    "topic_en": "Environmental compliance and remediation",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "환경 위반",
+      "벌금",
+      "시정조치",
+      "환경 법규"
+    ],
+    "knowledge": [
+      "위반 사실이 없을 경우 '없음' 공시가 중요하다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Environmental compliance and remediation",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T11",
+    "category": "E",
+    "standard_family": "ISSB S2 / EU Taxonomy",
+    "standard_refs": [
+      "ISSB S2"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "환경 투자 및 녹색 CapEx 계획",
+    "kpi_en": "Environmental investment and green CapEx plan",
+    "topic_ko": "환경 설비 투자",
+    "topic_en": "Environmental capex",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "환경 투자",
+      "CapEx",
+      "녹색 투자",
+      "설비 개선"
+    ],
+    "knowledge": [
+      "설비투자 목적과 예상 효과를 함께 확인한다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Environmental capex",
+    "quantity": "Key actions",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-ENV-T12",
+    "category": "E",
+    "standard_family": "ISSB S2",
+    "standard_refs": [
+      "ISSB S2 6"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "환경·기후 거버넌스",
+    "kpi_en": "Climate governance oversight",
+    "topic_ko": "이사회 및 위원회 감독",
+    "topic_en": "Board and committee oversight",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "기후 거버넌스",
+      "위원회",
+      "이사회 감독"
+    ],
+    "knowledge": [
+      "책임 주체와 보고 체계를 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Board and committee oversight",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T13",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 308-1"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "공급망 환경 요구사항",
+    "kpi_en": "Supplier environmental requirements",
+    "topic_ko": "협력사 환경 기준",
+    "topic_en": "Supplier environmental standards",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "협력사 환경",
+      "공급망 기준",
+      "supplier code"
+    ],
+    "knowledge": [
+      "평가 기준, 실사, 개선 요구를 같이 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Environment",
+    "topic": "Supplier environmental standards",
+    "quantity": "Key narrative",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-ENV-T14",
+    "category": "E",
+    "standard_family": "GRI",
+    "standard_refs": [
+      "GRI 301-3",
+      "GRI 416-1"
+    ],
+    "aspect_ko": "환경",
+    "aspect_en": "Environment",
+    "kpi_ko": "제품 생애주기 및 친환경 설계",
+    "kpi_en": "Product lifecycle and eco-design",
+    "topic_ko": "제품 환경성",
+    "topic_en": "Product lifecycle impacts",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "생애주기",
+      "LCA",
+      "에코디자인",
+      "친환경 제품"
+    ],
+    "knowledge": [
+      "제품 사용 단계의 환경성 개선 조치를 확인한다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Environment",
+    "topic": "Product lifecycle impacts",
+    "quantity": "Key actions",
+    "domain_ko": "환경",
+    "domain_en": "Environment",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-SOC-N01",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-7"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "임직원 수",
+    "kpi_en": "Total workforce",
+    "topic_ko": "고용 규모",
+    "topic_en": "Workforce size",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "명",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "임직원 수",
+      "headcount",
+      "고용 규모"
+    ],
+    "knowledge": [
+      "국내/해외, 정규/비정규 구분 표를 함께 본다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Workforce size",
+    "quantity": "Absolute value",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-SOC-N02",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 401-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "신규 채용 인원",
+    "kpi_en": "New hires",
+    "topic_ko": "채용",
+    "topic_en": "Hiring",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "명",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "신규 채용",
+      "채용 인원",
+      "new hires"
+    ],
+    "knowledge": [
+      "전체 인원과 채용률이 함께 제시될 수 있다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Hiring",
+    "quantity": "Absolute value",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-SOC-N03",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 401-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "이직률",
+    "kpi_en": "Turnover rate",
+    "topic_ko": "이직 및 유지",
+    "topic_en": "Turnover and retention",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "이직률",
+      "퇴직률",
+      "turnover"
+    ],
+    "knowledge": [
+      "연도별 추이를 우선 확인한다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Turnover and retention",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N04",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 404-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "평균 교육시간",
+    "kpi_en": "Average training hours",
+    "topic_ko": "교육 및 훈련",
+    "topic_en": "Training and development",
+    "quantity_ko": "시간",
+    "quantity_en": "Hours",
+    "unit": "시간",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "S-2-4"
+    ],
+    "k_esg_labels": [
+      "교육훈련"
+    ],
+    "k_esg_alignment": "related",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "평균 교육시간",
+      "training hours",
+      "교육훈련"
+    ],
+    "knowledge": [
+      "1인당 평균시간인지 총시간인지 구분한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Training and development",
+    "quantity": "Hours",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "시간"
+  },
+  {
+    "id": "K-SOC-N05",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 403-9"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "산업재해율",
+    "kpi_en": "Lost time injury frequency rate",
+    "topic_ko": "안전 및 보건",
+    "topic_en": "Occupational safety",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "rate",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "S-4-2"
+    ],
+    "k_esg_labels": [
+      "산업재해"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "산업재해율",
+      "LTIFR",
+      "LTI",
+      "재해율"
+    ],
+    "knowledge": [
+      "단위 백만시간당 비율인지 확인한다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Occupational safety",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N06",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 403-9"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "사망 재해 건수",
+    "kpi_en": "Fatalities",
+    "topic_ko": "중대 재해",
+    "topic_en": "Fatal occupational injuries",
+    "quantity_ko": "건수",
+    "quantity_en": "Count",
+    "unit": "건",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "사망 재해",
+      "fatality",
+      "중대재해"
+    ],
+    "knowledge": [
+      "협력사 포함 여부를 확인한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Fatal occupational injuries",
+    "quantity": "Count",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "건수"
+  },
+  {
+    "id": "K-SOC-N07",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 403-9"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "재해 건수",
+    "kpi_en": "Occupational injury count",
+    "topic_ko": "재해 건수",
+    "topic_en": "Occupational injuries",
+    "quantity_ko": "건수",
+    "quantity_en": "Count",
+    "unit": "건",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "재해 건수",
+      "injury count",
+      "occupational injury"
+    ],
+    "knowledge": [
+      "건수와 재해율을 구분한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Occupational injuries",
+    "quantity": "Count",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "건수"
+  },
+  {
+    "id": "K-SOC-N08",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 405-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "여성 임직원 비율",
+    "kpi_en": "Female employee ratio",
+    "topic_ko": "성별 다양성",
+    "topic_en": "Gender diversity",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "여성 비율",
+      "female employees",
+      "gender diversity"
+    ],
+    "knowledge": [
+      "전체 임직원 대비 비율을 우선 읽는다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Gender diversity",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N09",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 405-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "여성 관리자 비율",
+    "kpi_en": "Female manager ratio",
+    "topic_ko": "관리자 다양성",
+    "topic_en": "Management diversity",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "S-3-1"
+    ],
+    "k_esg_labels": [
+      "다양성"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "여성 관리자",
+      "women in management",
+      "관리자 비율"
+    ],
+    "knowledge": [
+      "임원 비율과 구분한다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Management diversity",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N10",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 405-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "여성 이사회 비율",
+    "kpi_en": "Women on board",
+    "topic_ko": "이사회 다양성",
+    "topic_en": "Board diversity",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "여성 이사회",
+      "board diversity",
+      "women directors"
+    ],
+    "knowledge": [
+      "사외/사내 구분이 있을 수 있다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Board diversity",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N11",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 405-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "장애인 고용 비율",
+    "kpi_en": "Employees with disabilities ratio",
+    "topic_ko": "포용 고용",
+    "topic_en": "Inclusive employment",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "장애인 고용",
+      "disability employment",
+      "inclusive hiring"
+    ],
+    "knowledge": [
+      "법정 의무고용률과 실제 고용률을 구분한다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Inclusive employment",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N12",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-30"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "노조 가입률",
+    "kpi_en": "Union membership rate",
+    "topic_ko": "노사관계",
+    "topic_en": "Labour relations",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "노조 가입률",
+      "union membership",
+      "단체교섭"
+    ],
+    "knowledge": [
+      "교섭 대상 인원과 노조 가입률이 같이 제시될 수 있다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Labour relations",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N13",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-29"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "임직원 참여도 점수",
+    "kpi_en": "Employee engagement score",
+    "topic_ko": "직원 몰입",
+    "topic_en": "Employee engagement",
+    "quantity_ko": "절대값",
+    "quantity_en": "Absolute value",
+    "unit": "점",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "참여도",
+      "engagement score",
+      "직원 만족"
+    ],
+    "knowledge": [
+      "설문 지표는 지수 또는 점수로 제시된다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Employee engagement",
+    "quantity": "Absolute value",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "절대값"
+  },
+  {
+    "id": "K-SOC-N14",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 403-6"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "결근율",
+    "kpi_en": "Absenteeism rate",
+    "topic_ko": "근태 관리",
+    "topic_en": "Attendance and absence",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "결근율",
+      "absenteeism",
+      "결근"
+    ],
+    "knowledge": [
+      "질병 결근과 일반 결근을 구분할 수 있다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Attendance and absence",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N15",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 414-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "협력사 사회 평가 비율",
+    "kpi_en": "Suppliers assessed for social impacts",
+    "topic_ko": "협력사 평가",
+    "topic_en": "Supplier social assessment",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "협력사 사회 평가",
+      "supplier assessment",
+      "social audit"
+    ],
+    "knowledge": [
+      "전체 협력사 대비 평가 완료 비율을 우선 본다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Supplier social assessment",
+    "quantity": "Ratio",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-SOC-N16",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 418-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "고객 개인정보 침해 건수",
+    "kpi_en": "Customer privacy incidents",
+    "topic_ko": "개인정보 보호",
+    "topic_en": "Privacy incidents",
+    "quantity_ko": "건수",
+    "quantity_en": "Count",
+    "unit": "건",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "개인정보 침해",
+      "privacy incident",
+      "data breach"
+    ],
+    "knowledge": [
+      "영 건수 공시도 중요하다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Privacy incidents",
+    "quantity": "Count",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "건수"
+  },
+  {
+    "id": "K-SOC-N17",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 413-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "지역사회 투자 금액",
+    "kpi_en": "Community investment amount",
+    "topic_ko": "사회공헌",
+    "topic_en": "Community investment",
+    "quantity_ko": "금액",
+    "quantity_en": "Amount",
+    "unit": "원",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "사회공헌",
+      "community investment",
+      "기부금"
+    ],
+    "knowledge": [
+      "기부금과 사회공헌 총액을 구분한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Community investment",
+    "quantity": "Amount",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "금액"
+  },
+  {
+    "id": "K-SOC-N18",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 406-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "인권 침해 신고 건수",
+    "kpi_en": "Human rights grievances",
+    "topic_ko": "인권",
+    "topic_en": "Human rights grievances",
+    "quantity_ko": "건수",
+    "quantity_en": "Count",
+    "unit": "건",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "인권 침해",
+      "grievance",
+      "human rights incident"
+    ],
+    "knowledge": [
+      "신고, 접수, 처리 완료를 분리해 읽는다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Human rights grievances",
+    "quantity": "Count",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "건수"
+  },
+  {
+    "id": "K-SOC-T01",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 405-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "다양성·형평성·포용 정책",
+    "kpi_en": "DEI policy",
+    "topic_ko": "다양성 정책",
+    "topic_en": "Diversity, equity and inclusion policy",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "DEI",
+      "다양성 정책",
+      "형평성",
+      "포용"
+    ],
+    "knowledge": [
+      "지표보다 제도와 운영 범위를 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Diversity, equity and inclusion policy",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T02",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 412-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "인권 실사 체계",
+    "kpi_en": "Human rights due diligence",
+    "topic_ko": "인권 정책 및 실사",
+    "topic_en": "Human rights due diligence",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "인권 실사",
+      "human rights due diligence",
+      "인권 정책"
+    ],
+    "knowledge": [
+      "실사 범위와 시정조치 체계를 함께 읽는다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Human rights due diligence",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T03",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-30"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "노동 관행 및 단체교섭",
+    "kpi_en": "Labour practices and collective bargaining",
+    "topic_ko": "노사관계",
+    "topic_en": "Labour relations",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "단체교섭",
+      "노사관계",
+      "collective bargaining"
+    ],
+    "knowledge": [
+      "협의체, 고충처리, 교섭 대상 범위를 확인한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Labour relations",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T04",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 403-6"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "임직원 복지 및 웰빙 프로그램",
+    "kpi_en": "Employee well-being programs",
+    "topic_ko": "복지",
+    "topic_en": "Well-being",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "웰빙",
+      "복지 프로그램",
+      "employee wellness"
+    ],
+    "knowledge": [
+      "건강검진, 상담, 유연근무 조치를 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Well-being",
+    "quantity": "Key actions",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-SOC-T05",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 401-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "인재 확보 및 유지 전략",
+    "kpi_en": "Talent attraction and retention strategy",
+    "topic_ko": "채용 및 유지",
+    "topic_en": "Talent retention",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "인재 확보",
+      "retention",
+      "채용 전략"
+    ],
+    "knowledge": [
+      "핵심인재, 유지율, 승계계획을 함께 읽는다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Talent retention",
+    "quantity": "Key actions",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-SOC-T06",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 404-2"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "리스킬링 및 역량 전환 프로그램",
+    "kpi_en": "Reskilling and upskilling program",
+    "topic_ko": "역량 개발",
+    "topic_en": "Reskilling",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "리스킬링",
+      "upskilling",
+      "직무 전환"
+    ],
+    "knowledge": [
+      "디지털 전환이나 AI 교육과 함께 등장할 수 있다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Reskilling",
+    "quantity": "Key actions",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-SOC-T07",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 403-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "안전보건 거버넌스",
+    "kpi_en": "Occupational safety governance",
+    "topic_ko": "안전보건 관리체계",
+    "topic_en": "Safety governance",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "안전보건",
+      "중대재해",
+      "EHS",
+      "안전 거버넌스"
+    ],
+    "knowledge": [
+      "위원회, 최고책임자, 공정 안전관리 체계를 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Safety governance",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T08",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 414-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "공급망 노동 실사 프로세스",
+    "kpi_en": "Supply chain labour audit process",
+    "topic_ko": "협력사 노동 기준",
+    "topic_en": "Supply chain labour process",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "공급망 노동",
+      "social audit",
+      "협력사 실사"
+    ],
+    "knowledge": [
+      "감사, 시정조치, 재평가 흐름을 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Supply chain labour process",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T09",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 418-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "고객 정보보호 정책",
+    "kpi_en": "Customer data protection policy",
+    "topic_ko": "개인정보 및 보안",
+    "topic_en": "Customer data protection",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "정보보호",
+      "개인정보",
+      "data protection"
+    ],
+    "knowledge": [
+      "기술적 통제와 조직적 통제를 함께 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Customer data protection",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T10",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 413-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "지역사회 참여 전략",
+    "kpi_en": "Community engagement strategy",
+    "topic_ko": "지역사회 이해관계자 참여",
+    "topic_en": "Community engagement",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "지역사회 참여",
+      "community engagement",
+      "사회공헌 전략"
+    ],
+    "knowledge": [
+      "참여 채널과 중점 프로그램을 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Community engagement",
+    "quantity": "Key actions",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-SOC-T11",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-25"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "고충처리 메커니즘",
+    "kpi_en": "Grievance mechanism",
+    "topic_ko": "신고 및 고충 채널",
+    "topic_en": "Grievance channels",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "고충처리",
+      "grievance",
+      "신고 채널"
+    ],
+    "knowledge": [
+      "내부 임직원과 외부 이해관계자 채널을 구분한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Grievance channels",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T12",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 416-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "접근성 및 제품책임 정책",
+    "kpi_en": "Accessibility and product responsibility policy",
+    "topic_ko": "제품 접근성 및 안전",
+    "topic_en": "Product accessibility",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "접근성",
+      "제품 책임",
+      "product safety"
+    ],
+    "knowledge": [
+      "품질, 안전, 접근성 정책을 통합적으로 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Product accessibility",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T13",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 404-2"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "인재개발 프레임워크",
+    "kpi_en": "Employee development framework",
+    "topic_ko": "승계 및 역량 프레임워크",
+    "topic_en": "Talent development",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "승계계획",
+      "인재개발",
+      "역량 프레임워크"
+    ],
+    "knowledge": [
+      "리더십 파이프라인과 평가 제도를 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Talent development",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T14",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 408-1",
+      "GRI 409-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "현대판 노예제·강제노동 대응",
+    "kpi_en": "Modern slavery response",
+    "topic_ko": "강제노동 및 아동노동",
+    "topic_en": "Modern slavery controls",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "강제노동",
+      "아동노동",
+      "modern slavery"
+    ],
+    "knowledge": [
+      "위험 평가와 금지 정책을 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Social",
+    "topic": "Modern slavery controls",
+    "quantity": "Key narrative",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-SOC-T15",
+    "category": "S",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 417-1"
+    ],
+    "aspect_ko": "사회",
+    "aspect_en": "Social",
+    "kpi_ko": "책임 있는 마케팅·제품 품질 관리",
+    "kpi_en": "Responsible marketing and product quality",
+    "topic_ko": "제품 정보 및 품질",
+    "topic_en": "Product quality and marketing",
+    "quantity_ko": "주요 조치",
+    "quantity_en": "Key actions",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "제품 품질",
+      "responsible marketing",
+      "품질 관리"
+    ],
+    "knowledge": [
+      "표시·광고 관리와 리콜 대응을 함께 읽는다."
+    ],
+    "expression_template": {
+      "name": "text_actions",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "table_note"
+      ],
+      "prompt_rules": [
+        "핵심 조치만 요약",
+        "근거 문장 기반으로 작성"
+      ]
+    },
+    "aspect": "Social",
+    "topic": "Product quality and marketing",
+    "quantity": "Key actions",
+    "domain_ko": "사회",
+    "domain_en": "Social",
+    "value_format": "주요 조치"
+  },
+  {
+    "id": "K-GOV-N01",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-9"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "사외이사 비율",
+    "kpi_en": "Independent director ratio",
+    "topic_ko": "이사회 독립성",
+    "topic_en": "Board independence",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "G-1-3"
+    ],
+    "k_esg_labels": [
+      "사외이사 비율"
+    ],
+    "k_esg_alignment": "direct",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "사외이사",
+      "독립성",
+      "board independence"
+    ],
+    "knowledge": [
+      "독립성 비율은 전체 이사 대비 사외이사 비율로 공시되는 경우가 많다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Governance",
+    "topic": "Board independence",
+    "quantity": "Ratio",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-GOV-N02",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-12"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "이사회 출석률",
+    "kpi_en": "Board attendance rate",
+    "topic_ko": "이사회 운영",
+    "topic_en": "Board operations",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "출석률",
+      "board attendance",
+      "위원회 출석"
+    ],
+    "knowledge": [
+      "이사회와 위원회 출석률이 별도 공시될 수 있다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Governance",
+    "topic": "Board operations",
+    "quantity": "Ratio",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-GOV-N03",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 205-2"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "윤리·반부패 교육 이수율",
+    "kpi_en": "Anti-corruption training completion",
+    "topic_ko": "윤리 교육",
+    "topic_en": "Anti-corruption training",
+    "quantity_ko": "비율",
+    "quantity_en": "Ratio",
+    "unit": "%",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [
+      "G-1-5"
+    ],
+    "k_esg_labels": [
+      "윤리경영 교육"
+    ],
+    "k_esg_alignment": "related",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "반부패 교육",
+      "윤리 교육",
+      "training completion"
+    ],
+    "knowledge": [
+      "임직원 전체와 고위험 조직 대상 이수율을 구분한다."
+    ],
+    "expression_template": {
+      "name": "numeric_ratio",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "%",
+        "rate"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "향후",
+        "예정"
+      ],
+      "evidence_priority": [
+        "table",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "실측 비율만 추출",
+        "목표 비율 제외"
+      ]
+    },
+    "aspect": "Governance",
+    "topic": "Anti-corruption training",
+    "quantity": "Ratio",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "비율"
+  },
+  {
+    "id": "K-GOV-N04",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 205-3",
+      "GRI 307-1"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "법규 위반 및 제재 건수",
+    "kpi_en": "Compliance violations and sanctions",
+    "topic_ko": "위반 및 벌금",
+    "topic_en": "Compliance breaches",
+    "quantity_ko": "건수",
+    "quantity_en": "Count",
+    "unit": "건",
+    "disclosure_type": "numeric",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "법규 위반",
+      "벌금",
+      "제재",
+      "sanction"
+    ],
+    "knowledge": [
+      "금액과 건수가 함께 나오면 건수를 우선 포착한다."
+    ],
+    "expression_template": {
+      "name": "numeric_absolute",
+      "output_fields": [
+        "disclosed",
+        "value",
+        "unit",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "numeric",
+      "preferred_units": [
+        "tCO2e",
+        "MWh",
+        "GJ",
+        "m3",
+        "t",
+        "명",
+        "건",
+        "원"
+      ],
+      "exclude_terms": [
+        "목표",
+        "계획",
+        "비전",
+        "로드맵",
+        "추진",
+        "예정",
+        "re100",
+        "net zero",
+        "net-zero"
+      ],
+      "evidence_priority": [
+        "table",
+        "year_header",
+        "row_label"
+      ],
+      "prompt_rules": [
+        "정량 수치만 추출",
+        "전략·목표 문구 제외",
+        "가장 최근 연도 우선"
+      ]
+    },
+    "aspect": "Governance",
+    "topic": "Compliance breaches",
+    "quantity": "Count",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "건수"
+  },
+  {
+    "id": "K-GOV-T01",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-9"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "이사회 다양성 정책 및 구성",
+    "kpi_en": "Board diversity policy and composition",
+    "topic_ko": "이사회 구성",
+    "topic_en": "Board composition",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "이사회 다양성",
+      "board diversity",
+      "위원회 구성"
+    ],
+    "knowledge": [
+      "성별, 전문성, 독립성 구성을 함께 정리한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Governance",
+    "topic": "Board composition",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-GOV-T02",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "ISSB S1 5"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "ESG 거버넌스 구조",
+    "kpi_en": "ESG governance structure",
+    "topic_ko": "ESG 의사결정 구조",
+    "topic_en": "ESG governance structure",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "ESG 거버넌스",
+      "위원회",
+      "책임 체계"
+    ],
+    "knowledge": [
+      "이사회-경영진-실무조직의 연결 구조를 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Governance",
+    "topic": "ESG governance structure",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-GOV-T03",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-19"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "경영진 보상과 ESG 연계",
+    "kpi_en": "Executive compensation linked to ESG",
+    "topic_ko": "보상 연계",
+    "topic_en": "ESG-linked remuneration",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "보상 연계",
+      "ESG KPI",
+      "incentive"
+    ],
+    "knowledge": [
+      "단순 언급과 실제 보상 반영을 구분한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Governance",
+    "topic": "ESG-linked remuneration",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-GOV-T04",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "ISSB S1 41"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "리스크 관리 및 내부통제",
+    "kpi_en": "Risk management and internal control",
+    "topic_ko": "리스크 관리",
+    "topic_en": "Risk management",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "내부통제",
+      "리스크 관리",
+      "internal control"
+    ],
+    "knowledge": [
+      "식별-평가-대응-모니터링 흐름을 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_risk",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "리스크 유형과 대응을 함께 정리"
+    },
+    "aspect": "Governance",
+    "topic": "Risk management",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-GOV-T05",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 207-1"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "조세 투명성 접근",
+    "kpi_en": "Tax transparency approach",
+    "topic_ko": "세무 정책",
+    "topic_en": "Tax transparency",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "조세 투명성",
+      "세무 정책",
+      "tax transparency"
+    ],
+    "knowledge": [
+      "세무 거버넌스와 조세원칙을 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Governance",
+    "topic": "Tax transparency",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-GOV-T06",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 2-26"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "제보 및 내부신고 메커니즘",
+    "kpi_en": "Whistleblowing mechanism",
+    "topic_ko": "내부 제보",
+    "topic_en": "Whistleblowing",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "whistleblowing",
+      "내부신고",
+      "제보 채널"
+    ],
+    "knowledge": [
+      "익명성, 보호조치, 처리절차를 함께 요약한다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Governance",
+    "topic": "Whistleblowing",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  },
+  {
+    "id": "K-GOV-T07",
+    "category": "G",
+    "standard_family": "ISSB S1 / GRI",
+    "standard_refs": [
+      "GRI 418-1"
+    ],
+    "aspect_ko": "지배구조",
+    "aspect_en": "Governance",
+    "kpi_ko": "사이버보안 거버넌스",
+    "kpi_en": "Cybersecurity governance",
+    "topic_ko": "정보보호 거버넌스",
+    "topic_en": "Cybersecurity governance",
+    "quantity_ko": "핵심 서술",
+    "quantity_en": "Key narrative",
+    "unit": "문장",
+    "disclosure_type": "text",
+    "obligation": "recommended",
+    "k_esg_guideline": "https://k-esg.org/guide/guideline02",
+    "k_esg_codes": [],
+    "k_esg_labels": [],
+    "k_esg_alignment": "none",
+    "industry_scope": [
+      "전 산업"
+    ],
+    "search_terms": [
+      "사이버보안",
+      "정보보호 위원회",
+      "cyber governance"
+    ],
+    "knowledge": [
+      "거버넌스, 모니터링, 대응훈련 체계를 함께 본다."
+    ],
+    "expression_template": {
+      "name": "text_policy",
+      "output_fields": [
+        "disclosed",
+        "action",
+        "evidence",
+        "confidence",
+        "source_page",
+        "matched_terms"
+      ],
+      "value_mode": "text",
+      "preferred_units": [],
+      "exclude_terms": [],
+      "evidence_priority": [
+        "paragraph",
+        "section"
+      ],
+      "prompt_rules": "정책·프로세스 중심으로 요약"
+    },
+    "aspect": "Governance",
+    "topic": "Cybersecurity governance",
+    "quantity": "Key narrative",
+    "domain_ko": "지배구조",
+    "domain_en": "Governance",
+    "value_format": "핵심 서술"
+  }
+]

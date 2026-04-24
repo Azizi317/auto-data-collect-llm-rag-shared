@@ -23,11 +23,11 @@
 
 실행 결과용 폴더(`outputs`, `gui_output`, `esgreveal_knowledge_base`)는 배포본에 기본 포함하지 않고, 실행할 때 자동으로 다시 생긴다.
 
-자세한 구조는 [PROJECT_STRUCTURE_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/architecture/PROJECT_STRUCTURE_KO.md)를 보면 된다.
+자세한 구조는 [PROJECT_STRUCTURE_KO.md](docs/architecture/PROJECT_STRUCTURE_KO.md)를 보면 된다.
 
 ## 빠른 시작
 
-압축을 풀어 다른 사람과 공유해도, 이제는 경로에 상관없이 실행할 수 있다. 가장 쉬운 방법은 루트의 [ESGReveal GUI.cmd](/c:/workspace/Auto_Data%20collect_LLM_RAG/ESGReveal%20GUI.cmd)를 더블클릭하는 것이다. 처음 실행이면 같은 폴더 안에 `.venv`를 만들고 필요한 패키지를 설치한 뒤 GUI를 연다.
+압축을 풀어 다른 사람과 공유해도, 이제는 경로에 상관없이 실행할 수 있다. 가장 쉬운 방법은 루트의 [ESGReveal GUI.cmd](ESGReveal%20GUI.cmd)를 더블클릭하는 것이다. 처음 실행이면 같은 폴더 안에 `.venv`를 만들고 필요한 패키지를 설치한 뒤 GUI를 연다.
 
 수동으로 준비하려면:
 
@@ -69,14 +69,14 @@ powershell -ExecutionPolicy Bypass -File .\scripts\create_gui_shortcut.ps1
 
 ## 문서
 
-- 프로젝트 개요: [PROJECT_OVERVIEW_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/PROJECT_OVERVIEW_KO.md)
-- 문서 인덱스: [DOCS_INDEX_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/DOCS_INDEX_KO.md)
-- 구현 기록: [IMPLEMENTATION_LOG_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/experiments/IMPLEMENTATION_LOG_KO.md)
-- 구조 안내: [PROJECT_STRUCTURE_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/architecture/PROJECT_STRUCTURE_KO.md)
-- Knowledge base: [KNOWLEDGE_BASE_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/architecture/KNOWLEDGE_BASE_KO.md)
-- GUI: [PYSIDE6_GUI_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/architecture/PYSIDE6_GUI_KO.md)
-- 런타임 설정: [LAB_RUNTIME_SETUP_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/setup/LAB_RUNTIME_SETUP_KO.md)
-- 다음 작업: [NEXT_STEPS_KO.md](/c:/workspace/Auto_Data%20collect_LLM_RAG/docs/experiments/NEXT_STEPS_KO.md)
+- 프로젝트 개요: [PROJECT_OVERVIEW_KO.md](docs/PROJECT_OVERVIEW_KO.md)
+- 문서 인덱스: [DOCS_INDEX_KO.md](docs/DOCS_INDEX_KO.md)
+- 구현 기록: [IMPLEMENTATION_LOG_KO.md](docs/experiments/IMPLEMENTATION_LOG_KO.md)
+- 구조 안내: [PROJECT_STRUCTURE_KO.md](docs/architecture/PROJECT_STRUCTURE_KO.md)
+- Knowledge base: [KNOWLEDGE_BASE_KO.md](docs/architecture/KNOWLEDGE_BASE_KO.md)
+- GUI: [PYSIDE6_GUI_KO.md](docs/architecture/PYSIDE6_GUI_KO.md)
+- 런타임 설정: [LAB_RUNTIME_SETUP_KO.md](docs/setup/LAB_RUNTIME_SETUP_KO.md)
+- 다음 작업: [NEXT_STEPS_KO.md](docs/experiments/NEXT_STEPS_KO.md)
 
 ## 외부 참고
 

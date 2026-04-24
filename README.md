@@ -37,6 +37,12 @@ cd "<프로젝트_폴더>"
 .\.venv\Scripts\Activate.ps1
 ```
 
+참고:
+
+- 첫 실행 시 모델이 `.cache` 아래로 다운로드될 수 있어 시간이 꽤 걸릴 수 있다.
+- OCR 경로까지 쓰려면 Windows에 Tesseract OCR이 별도로 설치돼 있어야 한다. Python 패키지만으로는 끝나지 않는다.
+- 개발 검증용 도구까지 설치하려면 `.venv`를 활성화한 뒤 `python -m pip install -e ".[gui,knowledge_base,dev]"`를 한 번 더 실행하면 된다.
+
 단일 PDF 추출:
 
 ```powershell
@@ -59,6 +65,13 @@ GUI 실행:
 
 ```powershell
 .\ESGReveal GUI.cmd
+```
+
+공개 저장소 기준 최소 점검:
+
+```powershell
+python -m esgreveal --help
+python -m pytest -q
 ```
 
 예쁜 아이콘 바로가기가 필요하면, 압축을 푼 뒤 아래 스크립트로 현재 PC 기준 `.lnk`를 다시 만들면 된다.

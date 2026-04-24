@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -12,8 +13,10 @@ from esgreveal.document import extract_document_blocks
 
 class TableProcessingTests(unittest.TestCase):
     def _make_table_pdf(self) -> Path:
-        tmp_dir = Path(tempfile.gettempdir())
-        pdf_path = tmp_dir / "esgreveal_table_test.pdf"
+        fd, raw_path = tempfile.mkstemp(prefix="esgreveal_table_test_", suffix=".pdf")
+        os.close(fd)
+        Path(raw_path).unlink(missing_ok=True)
+        pdf_path = Path(raw_path)
 
         doc = fitz.open()
         page = doc.new_page(width=420, height=560)

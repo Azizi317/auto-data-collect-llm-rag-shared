@@ -11,15 +11,22 @@ dependencies = ["numpy", "pypdf", "pymupdf"]
 
 [project.optional-dependencies]
 gui = [
+  "markdown",
+  "Pillow",
   "PySide6",
+  "pytesseract",
 ]
 knowledge_base = [
   "faiss-cpu",
   "pymilvus",
   "modelscope",
+  "Pillow",
   "sentence-transformers",
   "sentencepiece",
   "transformers",
+]
+dev = [
+  "pytest",
 ]
 
 [project.scripts]
